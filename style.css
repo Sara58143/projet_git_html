@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffd699; /* Couleur beige clair */
+    
+}
+
+header {
+    background-color: #ff9900; /* Orange vif */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    background-color: #b3b3b3; /* Gris clair */
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    background-color: #b3b3b3; /* Gris clair */
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    background-color: #ff9900; /* Orange vif */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Vert */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* Style pour les hyperliens en colonne */
+.liste-hyperliens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacement entre les hyperliens */
+}
+
+/* Style pour les hyperliens */
+.hyperlien {
+    text-decoration: underline;
+    color: #000; /* Couleur du texte initial */
+}
+
+/* Style pour les hyperliens visités */
+.hyperlien:visited {
+    color: #000; /* Couleur du texte pour les hyperliens visités (identique à la couleur initiale) */
+}
