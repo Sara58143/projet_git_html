@@ -47,7 +47,9 @@ button {
 button:hover {
     background-color: #555;
 }
-
+h1 {
+    font-family: 'Harry P', sans-serif;
+}
 a {
     text-decoration: none;
     color: inherit;
