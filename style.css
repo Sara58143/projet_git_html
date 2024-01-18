@@ -76,3 +76,9 @@ button {
 .hyperlien:visited {
     color: #000; /* Couleur du texte pour les hyperliens visités (identique à la couleur initiale) */
 }
+.image_container {
+    width: 500px;
+}
+img{
+    width: fit-content;
+}
