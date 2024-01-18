@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'MagicShoolOne';
+    src: url('font_h1/MagicSchoolOne.ttf') format('truetype');
+    /* Ajoutez d'autres formats si nécessaire (eot, woff, woff2, etc.) */
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -11,6 +17,9 @@ header {
     color: white;
     text-align: center;
     padding: 1em;
+    font-family: 'MagicSchoolOne', sans-serif; /* Utilisation de la police personnalisée pour le header */
+
+
 }
 
 .content {
