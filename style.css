@@ -48,7 +48,8 @@ button:hover {
     background-color: #555;
 }
 h1 {
-    font-family: 'Harry P', sans-serif;
+    font-family: 'HARRYP_', sans-serif; /* Ajout de la police pour le header */
+
 }
 a {
     text-decoration: none;
