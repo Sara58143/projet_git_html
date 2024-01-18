@@ -78,7 +78,10 @@ button {
 }
 .image_container {
     width: 500px;
+    height: 500px;
+    background-color: #ff9900;
 }
 img{
     width: fit-content;
+    height: auto;
 }
